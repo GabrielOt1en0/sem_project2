@@ -1,0 +1,15 @@
+<! DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<hr>
+<h1> In case of any inquiries feel free to contact us!!</h1>
+<p>
+You can do so via :
+email:abc.gmail.com
+Telephone:
+fax:
+
+</body>
+</html>

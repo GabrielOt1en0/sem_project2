@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+<style>
+.topnav{
+  overflow:hidden;
+  background-color: ;
+}
+
+.topnav a {
+  float:;
+  color:;
+  text-align:;
+  padding:; 
+  font-size:;
+}
+
+.topnav hover {
+  background-color:;
+  color:;
+}
+
+.topnav a.active {
+  background-color:;
+  color:;
+}
+
+.subnav{
+  float:left;
+  overflow:hidden;
+}
+
+.subnav .subnavbtn{
+  font-size:;
+  border:none;
+  outline:none;
+  color:;
+  padding:;
+  background-color:inherit;
+  font-family:inherit;
+  marigin:;
+}
+
+.subnav-content{
+  display:none;
+  position: absolute;
+  left: 0 ;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+</style>
+
+</head>
+
+<marquee direction = "right" scrollamount = "42">
+
+<body bgcolor = orange>
+
+Welcome to abc company
+
+</marquee>
+
+

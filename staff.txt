@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Staff</title>
+</head>
+<body background ="C:\Web\project\download 2.jpg">
+<body>
+<hr>
+<p>
+We have 25 member staff who are dedicated to providing exemplary services to our customers
+</p>
+<table border = "1"; align = "center">
+<th>Name</th>
+<th>image</th>
+<th>department</th>
+</body>
+</html>
+

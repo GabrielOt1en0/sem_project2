@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    color: black; 
+    text-align: center;
+    margin-top: 20px
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    
+}
+
+ol {
+    font-family: 'Helvetica';
+    font-size: 18px; 
+    color: blue; 
+    line-height: 1.6; 
+    margin: 0 20px; 
+    text-align: center; 
+    padding: 10px;
+     
+    
+}
+
+p {
+    font-family: 'Georgia';
+    font-size: 24px; 
+    color: black; 
+    line-height: 1.6; 
+    margin: 0 20px; 
+    text-align: justify; 
+    padding: 10px;
+     
+    
+}

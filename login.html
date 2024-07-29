@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Form Validation Demo</title>
+    <link rel="stylesheet" href="C:/Web/form-validation/css/style.css">
+ <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirm-password").value;
+
+            // Basic validation for empty fields
+            if (username === "" || email === "" || password === "" || confirmPassword === "") {
+                return false;
+            }
+
+            // Check if passwords match
+            if (password !== confirmPassword) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function enableButton() {
+            var signUpButton = document.getElementById("signUpButton");
+            if (validateForm()) {
+                signUpButton.disabled = false;
+            } else {
+                signUpButton.disabled = true;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Sign Up</h1>
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+
+
+            <div class="form-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+               
+		<input type="submit" value="Sign up" onclick="window.location.href='C:/Web/project/Landing page.html'">	
+		
+            </div>
+        </form>
+    </div>
+
+    <script src="C:/Web/form-validation/js/app.js"></script>
+</body>
+</html>

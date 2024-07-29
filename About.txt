@@ -1,0 +1,9 @@
+<html>
+<head>
+<title> About ABC company </title>
+</head>
+
+<body background = "C:\Web\project\download (1).jpg">
+<p>
+This company was founded by _______ in the year _____
+</p>
